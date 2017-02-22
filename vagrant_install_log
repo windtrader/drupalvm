@@ -1,0 +1,1746 @@
+Bringing machine 'drupalvm' up with 'virtualbox' provider...
+==> drupalvm: Box 'geerlingguy/ubuntu1604' could not be found. Attempting to find and install...
+    drupalvm: Box Provider: virtualbox
+    drupalvm: Box Version: >= 0
+==> drupalvm: Loading metadata for box 'geerlingguy/ubuntu1604'
+    drupalvm: URL: https://atlas.hashicorp.com/geerlingguy/ubuntu1604
+==> drupalvm: Adding box 'geerlingguy/ubuntu1604' (v1.0.9) for provider: virtualbox
+    drupalvm: Downloading: https://atlas.hashicorp.com/geerlingguy/boxes/ubuntu1604/versions/1.0.9/providers/virtualbox.box
+[K    drupalvm: Progress: 0% (Rate: 0/s, Estimated time remaining: --:--:--)[K    drupalvm: Progress: 0% (Rate: 120k/s, Estimated time remaining: 1:44:03)[K    drupalvm: Progress: 0% (Rate: 529k/s, Estimated time remaining: 0:42:31)[K    drupalvm: Progress: 0% (Rate: 786k/s, Estimated time remaining: 0:23:45)[K    drupalvm: Progress: 0% (Rate: 1069k/s, Estimated time remaining: 0:15:51)[K    drupalvm: Progress: 0% (Rate: 1348k/s, Estimated time remaining: 0:11:48)[K    drupalvm: Progress: 1% (Rate: 1514k/s, Estimated time remaining: 0:10:01)[K    drupalvm: Progress: 1% (Rate: 1859k/s, Estimated time remaining: 0:08:54)[K    drupalvm: Progress: 1% (Rate: 2195k/s, Estimated time remaining: 0:07:57)[K    drupalvm: Progress: 2% (Rate: 2407k/s, Estimated time remaining: 0:07:20)[K    drupalvm: Progress: 2% (Rate: 2513k/s, Estimated time remaining: 0:06:54)[K    drupalvm: Progress: 2% (Rate: 2521k/s, Estimated time remaining: 0:06:45)[K    drupalvm: Progress: 2% (Rate: 2511k/s, Estimated time remaining: 0:06:34)[K    drupalvm: Progress: 3% (Rate: 2370k/s, Estimated time remaining: 0:06:31)[K    drupalvm: Progress: 3% (Rate: 2300k/s, Estimated time remaining: 0:06:22)[K    drupalvm: Progress: 3% (Rate: 2157k/s, Estimated time remaining: 0:06:20)[K    drupalvm: Progress: 4% (Rate: 2169k/s, Estimated time remaining: 0:06:15)[K    drupalvm: Progress: 4% (Rate: 2210k/s, Estimated time remaining: 0:06:07)[K    drupalvm: Progress: 4% (Rate: 2359k/s, Estimated time remaining: 0:05:58)[K    drupalvm: Progress: 5% (Rate: 2375k/s, Estimated time remaining: 0:05:53)[K    drupalvm: Progress: 5% (Rate: 2471k/s, Estimated time remaining: 0:05:48)[K    drupalvm: Progress: 5% (Rate: 2612k/s, Estimated time remaining: 0:05:40)[K    drupalvm: Progress: 6% (Rate: 2534k/s, Estimated time remaining: 0:05:38)[K    drupalvm: Progress: 6% (Rate: 2544k/s, Estimated time remaining: 0:05:32)[K    drupalvm: Progress: 6% (Rate: 2535k/s, Estimated time remaining: 0:05:29)[K    drupalvm: Progress: 7% (Rate: 2548k/s, Estimated time remaining: 0:05:26)[K    drupalvm: Progress: 7% (Rate: 2092k/s, Estimated time remaining: 0:05:34)[K    drupalvm: Progress: 7% (Rate: 1890k/s, Estimated time remaining: 0:05:40)[K    drupalvm: Progress: 7% (Rate: 1406k/s, Estimated time remaining: 0:05:50)[K    drupalvm: Progress: 7% (Rate: 1079k/s, Estimated time remaining: 0:05:57)[K    drupalvm: Progress: 7% (Rate: 839k/s, Estimated time remaining: 0:06:00)[K    drupalvm: Progress: 8% (Rate: 1050k/s, Estimated time remaining: 0:05:56)[K    drupalvm: Progress: 8% (Rate: 1408k/s, Estimated time remaining: 0:05:53)[K    drupalvm: Progress: 8% (Rate: 1866k/s, Estimated time remaining: 0:05:48)[K    drupalvm: Progress: 8% (Rate: 1979k/s, Estimated time remaining: 0:05:51)[K    drupalvm: Progress: 9% (Rate: 2229k/s, Estimated time remaining: 0:05:46)[K    drupalvm: Progress: 9% (Rate: 2275k/s, Estimated time remaining: 0:05:42)[K    drupalvm: Progress: 9% (Rate: 2209k/s, Estimated time remaining: 0:05:41)[K    drupalvm: Progress: 10% (Rate: 2120k/s, Estimated time remaining: 0:05:39)[K    drupalvm: Progress: 10% (Rate: 2369k/s, Estimated time remaining: 0:05:36)[K    drupalvm: Progress: 10% (Rate: 2410k/s, Estimated time remaining: 0:05:31)[K    drupalvm: Progress: 11% (Rate: 2342k/s, Estimated time remaining: 0:05:29)[K    drupalvm: Progress: 11% (Rate: 2461k/s, Estimated time remaining: 0:05:26)[K    drupalvm: Progress: 11% (Rate: 2501k/s, Estimated time remaining: 0:05:24)[K    drupalvm: Progress: 12% (Rate: 2529k/s, Estimated time remaining: 0:05:20)[K    drupalvm: Progress: 12% (Rate: 2487k/s, Estimated time remaining: 0:05:17)[K    drupalvm: Progress: 12% (Rate: 2040k/s, Estimated time remaining: 0:05:23)[K    drupalvm: Progress: 12% (Rate: 1844k/s, Estimated time remaining: 0:05:25)[K    drupalvm: Progress: 12% (Rate: 1453k/s, Estimated time remaining: 0:05:30)[K    drupalvm: Progress: 12% (Rate: 1023k/s, Estimated time remaining: 0:05:35)[K    drupalvm: Progress: 12% (Rate: 671k/s, Estimated time remaining: 0:05:38)[K    drupalvm: Progress: 13% (Rate: 706k/s, Estimated time remaining: 0:05:39)[K    drupalvm: Progress: 13% (Rate: 980k/s, Estimated time remaining: 0:05:38)[K    drupalvm: Progress: 13% (Rate: 1284k/s, Estimated time remaining: 0:05:38)[K    drupalvm: Progress: 13% (Rate: 1580k/s, Estimated time remaining: 0:05:37)[K    drupalvm: Progress: 14% (Rate: 1793k/s, Estimated time remaining: 0:05:36)[K    drupalvm: Progress: 14% (Rate: 1908k/s, Estimated time remaining: 0:05:34)[K    drupalvm: Progress: 14% (Rate: 1903k/s, Estimated time remaining: 0:05:34)[K    drupalvm: Progress: 14% (Rate: 1861k/s, Estimated time remaining: 0:05:34)[K    drupalvm: Progress: 15% (Rate: 1884k/s, Estimated time remaining: 0:05:33)[K    drupalvm: Progress: 15% (Rate: 1829k/s, Estimated time remaining: 0:05:32)[K    drupalvm: Progress: 15% (Rate: 1852k/s, Estimated time remaining: 0:05:31)[K    drupalvm: Progress: 15% (Rate: 1960k/s, Estimated time remaining: 0:05:28)[K    drupalvm: Progress: 16% (Rate: 2046k/s, Estimated time remaining: 0:05:27)[K    drupalvm: Progress: 16% (Rate: 2099k/s, Estimated time remaining: 0:05:25)[K    drupalvm: Progress: 16% (Rate: 2151k/s, Estimated time remaining: 0:05:24)[K    drupalvm: Progress: 17% (Rate: 2267k/s, Estimated time remaining: 0:05:20)[K    drupalvm: Progress: 17% (Rate: 2282k/s, Estimated time remaining: 0:05:18)[K    drupalvm: Progress: 17% (Rate: 2292k/s, Estimated time remaining: 0:05:17)[K    drupalvm: Progress: 18% (Rate: 2271k/s, Estimated time remaining: 0:05:15)[K    drupalvm: Progress: 18% (Rate: 2316k/s, Estimated time remaining: 0:05:13)[K    drupalvm: Progress: 18% (Rate: 2205k/s, Estimated time remaining: 0:05:12)[K    drupalvm: Progress: 18% (Rate: 2134k/s, Estimated time remaining: 0:05:10)[K    drupalvm: Progress: 19% (Rate: 2190k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 19% (Rate: 2181k/s, Estimated time remaining: 0:05:07)[K    drupalvm: Progress: 19% (Rate: 2218k/s, Estimated time remaining: 0:05:05)[K    drupalvm: Progress: 20% (Rate: 2159k/s, Estimated time remaining: 0:05:04)[K    drupalvm: Progress: 20% (Rate: 2111k/s, Estimated time remaining: 0:05:04)[K    drupalvm: Progress: 20% (Rate: 1986k/s, Estimated time remaining: 0:05:03)[K    drupalvm: Progress: 20% (Rate: 1936k/s, Estimated time remaining: 0:05:02)[K    drupalvm: Progress: 20% (Rate: 1873k/s, Estimated time remaining: 0:05:01)[K    drupalvm: Progress: 21% (Rate: 1897k/s, Estimated time remaining: 0:05:00)[K    drupalvm: Progress: 21% (Rate: 1979k/s, Estimated time remaining: 0:04:59)[K    drupalvm: Progress: 21% (Rate: 2121k/s, Estimated time remaining: 0:04:56)[K    drupalvm: Progress: 22% (Rate: 2249k/s, Estimated time remaining: 0:04:54)[K    drupalvm: Progress: 22% (Rate: 2329k/s, Estimated time remaining: 0:04:52)[K    drupalvm: Progress: 22% (Rate: 2359k/s, Estimated time remaining: 0:04:51)[K    drupalvm: Progress: 23% (Rate: 2299k/s, Estimated time remaining: 0:04:50)[K    drupalvm: Progress: 23% (Rate: 2257k/s, Estimated time remaining: 0:04:49)[K    drupalvm: Progress: 23% (Rate: 2130k/s, Estimated time remaining: 0:04:48)[K    drupalvm: Progress: 23% (Rate: 1770k/s, Estimated time remaining: 0:04:50)[K    drupalvm: Progress: 23% (Rate: 1370k/s, Estimated time remaining: 0:04:53)[K    drupalvm: Progress: 23% (Rate: 1065k/s, Estimated time remaining: 0:04:55)[K    drupalvm: Progress: 23% (Rate: 676k/s, Estimated time remaining: 0:04:58)[K    drupalvm: Progress: 23% (Rate: 325k/s, Estimated time remaining: 0:05:00)[K    drupalvm: Progress: 23% (Rate: 149k/s, Estimated time remaining: 0:05:03)[K    drupalvm: Progress: 23% (Rate: 283k/s, Estimated time remaining: 0:05:04)[K    drupalvm: Progress: 24% (Rate: 423k/s, Estimated time remaining: 0:05:06)[K    drupalvm: Progress: 24% (Rate: 505k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 24% (Rate: 675k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 24% (Rate: 921k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 24% (Rate: 1017k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 24% (Rate: 1147k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 25% (Rate: 1293k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 25% (Rate: 1377k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 25% (Rate: 1332k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 25% (Rate: 1346k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 25% (Rate: 1090k/s, Estimated time remaining: 0:05:12)[K    drupalvm: Progress: 25% (Rate: 1184k/s, Estimated time remaining: 0:05:11)[K    drupalvm: Progress: 25% (Rate: 1100k/s, Estimated time remaining: 0:05:11)[K    drupalvm: Progress: 26% (Rate: 1123k/s, Estimated time remaining: 0:05:11)[K    drupalvm: Progress: 26% (Rate: 1252k/s, Estimated time remaining: 0:05:10)[K    drupalvm: Progress: 26% (Rate: 1556k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 26% (Rate: 1508k/s, Estimated time remaining: 0:05:09)[K    drupalvm: Progress: 27% (Rate: 1613k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 27% (Rate: 1590k/s, Estimated time remaining: 0:05:08)[K    drupalvm: Progress: 27% (Rate: 1584k/s, Estimated time remaining: 0:05:07)[K    drupalvm: Progress: 27% (Rate: 1647k/s, Estimated time remaining: 0:05:06)[K    drupalvm: Progress: 27% (Rate: 1654k/s, Estimated time remaining: 0:05:05)[K    drupalvm: Progress: 28% (Rate: 1711k/s, Estimated time remaining: 0:05:04)[K    drupalvm: Progress: 28% (Rate: 1800k/s, Estimated time remaining: 0:05:03)[K    drupalvm: Progress: 28% (Rate: 1765k/s, Estimated time remaining: 0:05:02)[K    drupalvm: Progress: 28% (Rate: 1807k/s, Estimated time remaining: 0:05:00)[K    drupalvm: Progress: 29% (Rate: 1911k/s, Estimated time remaining: 0:04:59)[K    drupalvm: Progress: 29% (Rate: 1925k/s, Estimated time remaining: 0:04:57)[K    drupalvm: Progress: 29% (Rate: 2007k/s, Estimated time remaining: 0:04:55)[K    drupalvm: Progress: 30% (Rate: 2087k/s, Estimated time remaining: 0:04:54)[K    drupalvm: Progress: 30% (Rate: 2103k/s, Estimated time remaining: 0:04:52)[K    drupalvm: Progress: 30% (Rate: 2162k/s, Estimated time remaining: 0:04:50)[K    drupalvm: Progress: 30% (Rate: 2274k/s, Estimated time remaining: 0:04:48)[K    drupalvm: Progress: 31% (Rate: 2274k/s, Estimated time remaining: 0:04:46)[K    drupalvm: Progress: 31% (Rate: 2337k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 31% (Rate: 2404k/s, Estimated time remaining: 0:04:42)[K    drupalvm: Progress: 32% (Rate: 2232k/s, Estimated time remaining: 0:04:41)[K    drupalvm: Progress: 32% (Rate: 1902k/s, Estimated time remaining: 0:04:42)[K    drupalvm: Progress: 32% (Rate: 1517k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 32% (Rate: 1162k/s, Estimated time remaining: 0:04:45)[K    drupalvm: Progress: 32% (Rate: 851k/s, Estimated time remaining: 0:04:45)[K    drupalvm: Progress: 32% (Rate: 821k/s, Estimated time remaining: 0:04:45)[K    drupalvm: Progress: 32% (Rate: 987k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 33% (Rate: 1256k/s, Estimated time remaining: 0:04:43)[K    drupalvm: Progress: 33% (Rate: 1469k/s, Estimated time remaining: 0:04:42)[K    drupalvm: Progress: 33% (Rate: 1444k/s, Estimated time remaining: 0:04:43)[K    drupalvm: Progress: 33% (Rate: 1205k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 33% (Rate: 944k/s, Estimated time remaining: 0:04:46)[K    drupalvm: Progress: 33% (Rate: 855k/s, Estimated time remaining: 0:04:46)[K    drupalvm: Progress: 33% (Rate: 810k/s, Estimated time remaining: 0:04:45)[K    drupalvm: Progress: 34% (Rate: 941k/s, Estimated time remaining: 0:04:45)[K    drupalvm: Progress: 34% (Rate: 1183k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 34% (Rate: 1363k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 34% (Rate: 1389k/s, Estimated time remaining: 0:04:44)[K    drupalvm: Progress: 34% (Rate: 1435k/s, Estimated time remaining: 0:04:43)[K    drupalvm: Progress: 35% (Rate: 1465k/s, Estimated time remaining: 0:04:42)[K    drupalvm: Progress: 35% (Rate: 1577k/s, Estimated time remaining: 0:04:41)[K    drupalvm: Progress: 35% (Rate: 1735k/s, Estimated time remaining: 0:04:39)[K    drupalvm: Progress: 35% (Rate: 1842k/s, Estimated time remaining: 0:04:38)[K    drupalvm: Progress: 36% (Rate: 1916k/s, Estimated time remaining: 0:04:37)[K    drupalvm: Progress: 36% (Rate: 1964k/s, Estimated time remaining: 0:04:35)[K    drupalvm: Progress: 36% (Rate: 2004k/s, Estimated time remaining: 0:04:33)[K    drupalvm: Progress: 36% (Rate: 2033k/s, Estimated time remaining: 0:04:32)[K    drupalvm: Progress: 37% (Rate: 2117k/s, Estimated time remaining: 0:04:30)[K    drupalvm: Progress: 37% (Rate: 2219k/s, Estimated time remaining: 0:04:28)[K    drupalvm: Progress: 37% (Rate: 2313k/s, Estimated time remaining: 0:04:26)[K    drupalvm: Progress: 38% (Rate: 2374k/s, Estimated time remaining: 0:04:24)[K    drupalvm: Progress: 38% (Rate: 2369k/s, Estimated time remaining: 0:04:22)[K    drupalvm: Progress: 38% (Rate: 2227k/s, Estimated time remaining: 0:04:21)[K    drupalvm: Progress: 39% (Rate: 2228k/s, Estimated time remaining: 0:04:19)[K    drupalvm: Progress: 39% (Rate: 2194k/s, Estimated time remaining: 0:04:18)[K    drupalvm: Progress: 39% (Rate: 2199k/s, Estimated time remaining: 0:04:16)[K    drupalvm: Progress: 39% (Rate: 2165k/s, Estimated time remaining: 0:04:14)[K    drupalvm: Progress: 40% (Rate: 2312k/s, Estimated time remaining: 0:04:12)[K    drupalvm: Progress: 40% (Rate: 2264k/s, Estimated time remaining: 0:04:11)[K    drupalvm: Progress: 40% (Rate: 2191k/s, Estimated time remaining: 0:04:10)[K    drupalvm: Progress: 41% (Rate: 2077k/s, Estimated time remaining: 0:04:08)[K    drupalvm: Progress: 41% (Rate: 2021k/s, Estimated time remaining: 0:04:07)[K    drupalvm: Progress: 41% (Rate: 1941k/s, Estimated time remaining: 0:04:06)[K    drupalvm: Progress: 41% (Rate: 1889k/s, Estimated time remaining: 0:04:05)[K    drupalvm: Progress: 42% (Rate: 1932k/s, Estimated time remaining: 0:04:04)[K    drupalvm: Progress: 42% (Rate: 1906k/s, Estimated time remaining: 0:04:03)[K    drupalvm: Progress: 42% (Rate: 1901k/s, Estimated time remaining: 0:04:02)[K    drupalvm: Progress: 42% (Rate: 1877k/s, Estimated time remaining: 0:04:01)[K    drupalvm: Progress: 42% (Rate: 1852k/s, Estimated time remaining: 0:04:00)[K    drupalvm: Progress: 43% (Rate: 1794k/s, Estimated time remaining: 0:03:59)[K    drupalvm: Progress: 43% (Rate: 1782k/s, Estimated time remaining: 0:03:58)[K    drupalvm: Progress: 43% (Rate: 1873k/s, Estimated time remaining: 0:03:56)[K    drupalvm: Progress: 43% (Rate: 1683k/s, Estimated time remaining: 0:03:56)[K    drupalvm: Progress: 44% (Rate: 1809k/s, Estimated time remaining: 0:03:55)[K    drupalvm: Progress: 44% (Rate: 1786k/s, Estimated time remaining: 0:03:54)[K    drupalvm: Progress: 44% (Rate: 1810k/s, Estimated time remaining: 0:03:53)[K    drupalvm: Progress: 44% (Rate: 1765k/s, Estimated time remaining: 0:03:51)[K    drupalvm: Progress: 45% (Rate: 2060k/s, Estimated time remaining: 0:03:50)[K    drupalvm: Progress: 45% (Rate: 1914k/s, Estimated time remaining: 0:03:49)[K    drupalvm: Progress: 45% (Rate: 1977k/s, Estimated time remaining: 0:03:48)[K    drupalvm: Progress: 46% (Rate: 2023k/s, Estimated time remaining: 0:03:46)[K    drupalvm: Progress: 46% (Rate: 2055k/s, Estimated time remaining: 0:03:45)[K    drupalvm: Progress: 46% (Rate: 2051k/s, Estimated time remaining: 0:03:43)[K    drupalvm: Progress: 46% (Rate: 2148k/s, Estimated time remaining: 0:03:42)[K    drupalvm: Progress: 47% (Rate: 2156k/s, Estimated time remaining: 0:03:40)[K    drupalvm: Progress: 47% (Rate: 2177k/s, Estimated time remaining: 0:03:39)[K    drupalvm: Progress: 47% (Rate: 2199k/s, Estimated time remaining: 0:03:37)[K    drupalvm: Progress: 48% (Rate: 2260k/s, Estimated time remaining: 0:03:36)[K    drupalvm: Progress: 48% (Rate: 2166k/s, Estimated time remaining: 0:03:35)[K    drupalvm: Progress: 48% (Rate: 2048k/s, Estimated time remaining: 0:03:34)[K    drupalvm: Progress: 48% (Rate: 1974k/s, Estimated time remaining: 0:03:33)[K    drupalvm: Progress: 49% (Rate: 1843k/s, Estimated time remaining: 0:03:32)[K    drupalvm: Progress: 49% (Rate: 1737k/s, Estimated time remaining: 0:03:31)[K    drupalvm: Progress: 49% (Rate: 1741k/s, Estimated time remaining: 0:03:30)[K    drupalvm: Progress: 49% (Rate: 1781k/s, Estimated time remaining: 0:03:29)[K    drupalvm: Progress: 49% (Rate: 1688k/s, Estimated time remaining: 0:03:29)[K    drupalvm: Progress: 50% (Rate: 1749k/s, Estimated time remaining: 0:03:27)[K    drupalvm: Progress: 50% (Rate: 1793k/s, Estimated time remaining: 0:03:26)[K    drupalvm: Progress: 50% (Rate: 1876k/s, Estimated time remaining: 0:03:25)[K    drupalvm: Progress: 51% (Rate: 1952k/s, Estimated time remaining: 0:03:23)[K    drupalvm: Progress: 51% (Rate: 2142k/s, Estimated time remaining: 0:03:22)[K    drupalvm: Progress: 51% (Rate: 2058k/s, Estimated time remaining: 0:03:21)[K    drupalvm: Progress: 51% (Rate: 2124k/s, Estimated time remaining: 0:03:19)[K    drupalvm: Progress: 52% (Rate: 2157k/s, Estimated time remaining: 0:03:18)[K    drupalvm: Progress: 52% (Rate: 2161k/s, Estimated time remaining: 0:03:16)[K    drupalvm: Progress: 52% (Rate: 2138k/s, Estimated time remaining: 0:03:15)[K    drupalvm: Progress: 52% (Rate: 2176k/s, Estimated time remaining: 0:03:14)[K    drupalvm: Progress: 53% (Rate: 1746k/s, Estimated time remaining: 0:03:15)[K    drupalvm: Progress: 53% (Rate: 1459k/s, Estimated time remaining: 0:03:15)[K    drupalvm: Progress: 53% (Rate: 1067k/s, Estimated time remaining: 0:03:15)[K    drupalvm: Progress: 53% (Rate: 721k/s, Estimated time remaining: 0:03:16)[K    drupalvm: Progress: 53% (Rate: 527k/s, Estimated time remaining: 0:03:16)[K    drupalvm: Progress: 53% (Rate: 718k/s, Estimated time remaining: 0:03:15)[K    drupalvm: Progress: 53% (Rate: 940k/s, Estimated time remaining: 0:03:14)[K    drupalvm: Progress: 53% (Rate: 1235k/s, Estimated time remaining: 0:03:13)[K    drupalvm: Progress: 54% (Rate: 1463k/s, Estimated time remaining: 0:03:12)[K    drupalvm: Progress: 54% (Rate: 1655k/s, Estimated time remaining: 0:03:11)[K    drupalvm: Progress: 54% (Rate: 1637k/s, Estimated time remaining: 0:03:10)[K    drupalvm: Progress: 54% (Rate: 1683k/s, Estimated time remaining: 0:03:10)[K    drupalvm: Progress: 55% (Rate: 1786k/s, Estimated time remaining: 0:03:08)[K    drupalvm: Progress: 55% (Rate: 1893k/s, Estimated time remaining: 0:03:07)[K    drupalvm: Progress: 55% (Rate: 1908k/s, Estimated time remaining: 0:03:06)[K    drupalvm: Progress: 55% (Rate: 1996k/s, Estimated time remaining: 0:03:04)[K    drupalvm: Progress: 56% (Rate: 2114k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 56% (Rate: 2134k/s, Estimated time remaining: 0:03:02)[K    drupalvm: Progress: 56% (Rate: 2142k/s, Estimated time remaining: 0:03:00)[K    drupalvm: Progress: 57% (Rate: 1832k/s, Estimated time remaining: 0:03:01)[K    drupalvm: Progress: 57% (Rate: 1467k/s, Estimated time remaining: 0:03:01)[K    drupalvm: Progress: 57% (Rate: 1226k/s, Estimated time remaining: 0:03:01)[K    drupalvm: Progress: 57% (Rate: 840k/s, Estimated time remaining: 0:03:01)[K    drupalvm: Progress: 57% (Rate: 406k/s, Estimated time remaining: 0:03:02)[K    drupalvm: Progress: 57% (Rate: 99k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 135k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 214k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 282k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 452k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 694k/s, Estimated time remaining: 0:03:03)[K    drupalvm: Progress: 57% (Rate: 911k/s, Estimated time remaining: 0:03:02)[K    drupalvm: Progress: 57% (Rate: 1087k/s, Estimated time remaining: 0:03:02)[K    drupalvm: Progress: 58% (Rate: 1278k/s, Estimated time remaining: 0:03:01)[K    drupalvm: Progress: 58% (Rate: 1437k/s, Estimated time remaining: 0:03:00)[K    drupalvm: Progress: 58% (Rate: 1599k/s, Estimated time remaining: 0:02:59)[K    drupalvm: Progress: 58% (Rate: 1605k/s, Estimated time remaining: 0:02:58)[K    drupalvm: Progress: 59% (Rate: 1680k/s, Estimated time remaining: 0:02:57)[K    drupalvm: Progress: 59% (Rate: 1674k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 59% (Rate: 1677k/s, Estimated time remaining: 0:02:55)[K    drupalvm: Progress: 59% (Rate: 1424k/s, Estimated time remaining: 0:02:55)[K    drupalvm: Progress: 59% (Rate: 1236k/s, Estimated time remaining: 0:02:55)[K    drupalvm: Progress: 59% (Rate: 917k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 59% (Rate: 676k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 59% (Rate: 438k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 59% (Rate: 342k/s, Estimated time remaining: 0:02:57)[K    drupalvm: Progress: 59% (Rate: 460k/s, Estimated time remaining: 0:02:57)[K    drupalvm: Progress: 60% (Rate: 582k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 60% (Rate: 663k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 60% (Rate: 726k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 60% (Rate: 814k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 60% (Rate: 874k/s, Estimated time remaining: 0:02:56)[K    drupalvm: Progress: 60% (Rate: 901k/s, Estimated time remaining: 0:02:55)[K    drupalvm: Progress: 60% (Rate: 1008k/s, Estimated time remaining: 0:02:55)[K    drupalvm: Progress: 61% (Rate: 1126k/s, Estimated time remaining: 0:02:54)[K    drupalvm: Progress: 61% (Rate: 1169k/s, Estimated time remaining: 0:02:53)[K    drupalvm: Progress: 61% (Rate: 1181k/s, Estimated time remaining: 0:02:53)[K    drupalvm: Progress: 61% (Rate: 1249k/s, Estimated time remaining: 0:02:52)[K    drupalvm: Progress: 61% (Rate: 1307k/s, Estimated time remaining: 0:02:51)[K    drupalvm: Progress: 61% (Rate: 1378k/s, Estimated time remaining: 0:02:50)[K    drupalvm: Progress: 62% (Rate: 1438k/s, Estimated time remaining: 0:02:50)[K    drupalvm: Progress: 62% (Rate: 1595k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 62% (Rate: 1653k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 62% (Rate: 1610k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 63% (Rate: 1619k/s, Estimated time remaining: 0:02:46)[K    drupalvm: Progress: 63% (Rate: 1526k/s, Estimated time remaining: 0:02:45)[K    drupalvm: Progress: 63% (Rate: 1115k/s, Estimated time remaining: 0:02:46)[K    drupalvm: Progress: 63% (Rate: 819k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 63% (Rate: 763k/s, Estimated time remaining: 0:02:46)[K    drupalvm: Progress: 63% (Rate: 471k/s, Estimated time remaining: 0:02:46)[K    drupalvm: Progress: 63% (Rate: 298k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 63% (Rate: 346k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 63% (Rate: 383k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 217k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 229k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 306k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 395k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 546k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 656k/s, Estimated time remaining: 0:02:48)[K    drupalvm: Progress: 63% (Rate: 709k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 64% (Rate: 775k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 64% (Rate: 820k/s, Estimated time remaining: 0:02:47)[K    drupalvm: Progress: 64% (Rate: 921k/s, Estimated time remaining: 0:02:46)[K    drupalvm: Progress: 64% (Rate: 1025k/s, Estimated time remaining: 0:02:45)[K    drupalvm: Progress: 64% (Rate: 1121k/s, Estimated time remaining: 0:02:45)[K    drupalvm: Progress: 64% (Rate: 1198k/s, Estimated time remaining: 0:02:44)[K    drupalvm: Progress: 65% (Rate: 1297k/s, Estimated time remaining: 0:02:43)[K    drupalvm: Progress: 65% (Rate: 1269k/s, Estimated time remaining: 0:02:43)[K    drupalvm: Progress: 65% (Rate: 1244k/s, Estimated time remaining: 0:02:42)[K    drupalvm: Progress: 65% (Rate: 1293k/s, Estimated time remaining: 0:02:41)[K    drupalvm: Progress: 65% (Rate: 1362k/s, Estimated time remaining: 0:02:40)[K    drupalvm: Progress: 65% (Rate: 1344k/s, Estimated time remaining: 0:02:40)[K    drupalvm: Progress: 66% (Rate: 1325k/s, Estimated time remaining: 0:02:39)[K    drupalvm: Progress: 66% (Rate: 1393k/s, Estimated time remaining: 0:02:38)[K    drupalvm: Progress: 66% (Rate: 1440k/s, Estimated time remaining: 0:02:37)[K    drupalvm: Progress: 66% (Rate: 1421k/s, Estimated time remaining: 0:02:36)[K    drupalvm: Progress: 66% (Rate: 1475k/s, Estimated time remaining: 0:02:35)[K    drupalvm: Progress: 67% (Rate: 1513k/s, Estimated time remaining: 0:02:34)[K    drupalvm: Progress: 67% (Rate: 1503k/s, Estimated time remaining: 0:02:34)[K    drupalvm: Progress: 67% (Rate: 1434k/s, Estimated time remaining: 0:02:33)[K    drupalvm: Progress: 67% (Rate: 1407k/s, Estimated time remaining: 0:02:32)[K    drupalvm: Progress: 67% (Rate: 1247k/s, Estimated time remaining: 0:02:32)[K    drupalvm: Progress: 67% (Rate: 1051k/s, Estimated time remaining: 0:02:32)[K    drupalvm: Progress: 67% (Rate: 840k/s, Estimated time remaining: 0:02:32)[K    drupalvm: Progress: 67% (Rate: 705k/s, Estimated time remaining: 0:02:32)[K    drupalvm: Progress: 68% (Rate: 674k/s, Estimated time remaining: 0:02:31)[K    drupalvm: Progress: 68% (Rate: 759k/s, Estimated time remaining: 0:02:31)[K    drupalvm: Progress: 68% (Rate: 922k/s, Estimated time remaining: 0:02:30)[K    drupalvm: Progress: 68% (Rate: 1070k/s, Estimated time remaining: 0:02:29)[K    drupalvm: Progress: 68% (Rate: 1212k/s, Estimated time remaining: 0:02:29)[K    drupalvm: Progress: 68% (Rate: 1205k/s, Estimated time remaining: 0:02:28)[K    drupalvm: Progress: 69% (Rate: 1160k/s, Estimated time remaining: 0:02:28)[K    drupalvm: Progress: 69% (Rate: 1108k/s, Estimated time remaining: 0:02:27)[K    drupalvm: Progress: 69% (Rate: 1116k/s, Estimated time remaining: 0:02:26)[K    drupalvm: Progress: 69% (Rate: 1065k/s, Estimated time remaining: 0:02:26)[K    drupalvm: Progress: 69% (Rate: 1024k/s, Estimated time remaining: 0:02:26)[K    drupalvm: Progress: 69% (Rate: 1010k/s, Estimated time remaining: 0:02:25)[K    drupalvm: Progress: 69% (Rate: 1017k/s, Estimated time remaining: 0:02:25)[K    drupalvm: Progress: 69% (Rate: 807k/s, Estimated time remaining: 0:02:25)[K    drupalvm: Progress: 70% (Rate: 858k/s, Estimated time remaining: 0:02:24)[K    drupalvm: Progress: 70% (Rate: 834k/s, Estimated time remaining: 0:02:24)[K    drupalvm: Progress: 70% (Rate: 701k/s, Estimated time remaining: 0:02:24)[K    drupalvm: Progress: 70% (Rate: 619k/s, Estimated time remaining: 0:02:24)[K    drupalvm: Progress: 70% (Rate: 663k/s, Estimated time remaining: 0:02:24)[K    drupalvm: Progress: 70% (Rate: 648k/s, Estimated time remaining: 0:02:23)[K    drupalvm: Progress: 70% (Rate: 662k/s, Estimated time remaining: 0:02:23)[K    drupalvm: Progress: 70% (Rate: 794k/s, Estimated time remaining: 0:02:23)[K    drupalvm: Progress: 70% (Rate: 795k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 70% (Rate: 876k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 71% (Rate: 824k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 71% (Rate: 786k/s, Estimated time remaining: 0:02:21)[K    drupalvm: Progress: 71% (Rate: 668k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 71% (Rate: 614k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 71% (Rate: 529k/s, Estimated time remaining: 0:02:22)[K    drupalvm: Progress: 71% (Rate: 504k/s, Estimated time remaining: 0:02:21)[K    drupalvm: Progress: 71% (Rate: 519k/s, Estimated time remaining: 0:02:21)[K    drupalvm: Progress: 71% (Rate: 642k/s, Estimated time remaining: 0:02:21)[K    drupalvm: Progress: 71% (Rate: 840k/s, Estimated time remaining: 0:02:20)[K    drupalvm: Progress: 71% (Rate: 1000k/s, Estimated time remaining: 0:02:19)[K    drupalvm: Progress: 72% (Rate: 1062k/s, Estimated time remaining: 0:02:18)[K    drupalvm: Progress: 72% (Rate: 1141k/s, Estimated time remaining: 0:02:18)[K    drupalvm: Progress: 72% (Rate: 1238k/s, Estimated time remaining: 0:02:17)[K    drupalvm: Progress: 72% (Rate: 1233k/s, Estimated time remaining: 0:02:16)[K    drupalvm: Progress: 72% (Rate: 1193k/s, Estimated time remaining: 0:02:16)[K    drupalvm: Progress: 72% (Rate: 1062k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 72% (Rate: 912k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 72% (Rate: 709k/s, Estimated time remaining: 0:02:16)[K    drupalvm: Progress: 72% (Rate: 516k/s, Estimated time remaining: 0:02:16)[K    drupalvm: Progress: 73% (Rate: 503k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 73% (Rate: 665k/s, Estimated time remaining: 0:02:14)[K    drupalvm: Progress: 73% (Rate: 725k/s, Estimated time remaining: 0:02:14)[K    drupalvm: Progress: 73% (Rate: 697k/s, Estimated time remaining: 0:02:14)[K    drupalvm: Progress: 73% (Rate: 624k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 73% (Rate: 437k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 73% (Rate: 189k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 73% (Rate: 58813/s, Estimated time remaining: 0:02:16)[K    drupalvm: Progress: 73% (Rate: 248k/s, Estimated time remaining: 0:02:15)[K    drupalvm: Progress: 73% (Rate: 420k/s, Estimated time remaining: 0:02:14)[K    drupalvm: Progress: 73% (Rate: 690k/s, Estimated time remaining: 0:02:14)[K    drupalvm: Progress: 73% (Rate: 972k/s, Estimated time remaining: 0:02:13)[K    drupalvm: Progress: 74% (Rate: 1233k/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 74% (Rate: 1167k/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 74% (Rate: 1209k/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 74% (Rate: 1155k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 74% (Rate: 984k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 74% (Rate: 788k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 74% (Rate: 631k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 74% (Rate: 623k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 74% (Rate: 561k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 74% (Rate: 475k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 74% (Rate: 467k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 75% (Rate: 472k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 375k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 75% (Rate: 285k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 310k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 295k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 276k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 195k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 75% (Rate: 130k/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 75% (Rate: 98744/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 75% (Rate: 67840/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 75% (Rate: 38524/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 75% (Rate: 14740/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 75% (Rate: 0/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 75% (Rate: 0/s, Estimated time remaining: 0:02:13)[K    drupalvm: Progress: 75% (Rate: 0/s, Estimated time remaining: 0:02:13)[K    drupalvm: Progress: 75% (Rate: 3770/s, Estimated time remaining: 0:02:13)[K    drupalvm: Progress: 75% (Rate: 281k/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 75% (Rate: 432k/s, Estimated time remaining: 0:02:12)[K    drupalvm: Progress: 75% (Rate: 706k/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 75% (Rate: 963k/s, Estimated time remaining: 0:02:11)[K    drupalvm: Progress: 75% (Rate: 1069k/s, Estimated time remaining: 0:02:10)[K    drupalvm: Progress: 76% (Rate: 1067k/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 76% (Rate: 1185k/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 1228k/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 76% (Rate: 1254k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 76% (Rate: 1253k/s, Estimated time remaining: 0:02:05)[K    drupalvm: Progress: 76% (Rate: 906k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 76% (Rate: 694k/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 76% (Rate: 504k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 76% (Rate: 314k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 76% (Rate: 88346/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 76% (Rate: 47059/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 76% (Rate: 47039/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 39160/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 2783/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 0/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 0/s, Estimated time remaining: 0:02:09)[K    drupalvm: Progress: 76% (Rate: 229k/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 76% (Rate: 280k/s, Estimated time remaining: 0:02:08)[K    drupalvm: Progress: 77% (Rate: 424k/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 77% (Rate: 603k/s, Estimated time remaining: 0:02:07)[K    drupalvm: Progress: 77% (Rate: 810k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 77% (Rate: 735k/s, Estimated time remaining: 0:02:06)[K    drupalvm: Progress: 77% (Rate: 902k/s, Estimated time remaining: 0:02:05)[K    drupalvm: Progress: 77% (Rate: 1030k/s, Estimated time remaining: 0:02:04)[K    drupalvm: Progress: 77% (Rate: 1115k/s, Estimated time remaining: 0:02:03)[K    drupalvm: Progress: 78% (Rate: 956k/s, Estimated time remaining: 0:02:03)[K    drupalvm: Progress: 78% (Rate: 872k/s, Estimated time remaining: 0:02:03)[K    drupalvm: Progress: 78% (Rate: 845k/s, Estimated time remaining: 0:02:02)[K    drupalvm: Progress: 78% (Rate: 779k/s, Estimated time remaining: 0:02:02)[K    drupalvm: Progress: 78% (Rate: 751k/s, Estimated time remaining: 0:02:01)[K    drupalvm: Progress: 78% (Rate: 895k/s, Estimated time remaining: 0:02:00)[K    drupalvm: Progress: 78% (Rate: 909k/s, Estimated time remaining: 0:02:00)[K    drupalvm: Progress: 78% (Rate: 773k/s, Estimated time remaining: 0:02:00)[K    drupalvm: Progress: 78% (Rate: 641k/s, Estimated time remaining: 0:02:00)[K    drupalvm: Progress: 78% (Rate: 557k/s, Estimated time remaining: 0:01:59)[K    drupalvm: Progress: 78% (Rate: 560k/s, Estimated time remaining: 0:01:59)[K    drupalvm: Progress: 79% (Rate: 673k/s, Estimated time remaining: 0:01:58)[K    drupalvm: Progress: 79% (Rate: 871k/s, Estimated time remaining: 0:01:57)[K    drupalvm: Progress: 79% (Rate: 1026k/s, Estimated time remaining: 0:01:56)[K    drupalvm: Progress: 79% (Rate: 1128k/s, Estimated time remaining: 0:01:55)[K    drupalvm: Progress: 79% (Rate: 1166k/s, Estimated time remaining: 0:01:55)[K    drupalvm: Progress: 79% (Rate: 1152k/s, Estimated time remaining: 0:01:54)[K    drupalvm: Progress: 80% (Rate: 1179k/s, Estimated time remaining: 0:01:53)[K    drupalvm: Progress: 80% (Rate: 1236k/s, Estimated time remaining: 0:01:52)[K    drupalvm: Progress: 80% (Rate: 1279k/s, Estimated time remaining: 0:01:51)[K    drupalvm: Progress: 80% (Rate: 1324k/s, Estimated time remaining: 0:01:50)[K    drupalvm: Progress: 80% (Rate: 1328k/s, Estimated time remaining: 0:01:49)[K    drupalvm: Progress: 80% (Rate: 1313k/s, Estimated time remaining: 0:01:48)[K    drupalvm: Progress: 81% (Rate: 1230k/s, Estimated time remaining: 0:01:47)[K    drupalvm: Progress: 81% (Rate: 1233k/s, Estimated time remaining: 0:01:46)[K    drupalvm: Progress: 81% (Rate: 1256k/s, Estimated time remaining: 0:01:45)[K    drupalvm: Progress: 81% (Rate: 1237k/s, Estimated time remaining: 0:01:44)[K    drupalvm: Progress: 81% (Rate: 1175k/s, Estimated time remaining: 0:01:44)[K    drupalvm: Progress: 81% (Rate: 1233k/s, Estimated time remaining: 0:01:43)[K    drupalvm: Progress: 82% (Rate: 1213k/s, Estimated time remaining: 0:01:42)[K    drupalvm: Progress: 82% (Rate: 1168k/s, Estimated time remaining: 0:01:41)[K    drupalvm: Progress: 82% (Rate: 1300k/s, Estimated time remaining: 0:01:39)[K    drupalvm: Progress: 82% (Rate: 1441k/s, Estimated time remaining: 0:01:38)[K    drupalvm: Progress: 82% (Rate: 1510k/s, Estimated time remaining: 0:01:37)[K    drupalvm: Progress: 83% (Rate: 1553k/s, Estimated time remaining: 0:01:36)[K    drupalvm: Progress: 83% (Rate: 1672k/s, Estimated time remaining: 0:01:34)[K    drupalvm: Progress: 83% (Rate: 1680k/s, Estimated time remaining: 0:01:33)[K    drupalvm: Progress: 83% (Rate: 1660k/s, Estimated time remaining: 0:01:32)[K    drupalvm: Progress: 83% (Rate: 1607k/s, Estimated time remaining: 0:01:31)[K    drupalvm: Progress: 84% (Rate: 1572k/s, Estimated time remaining: 0:01:30)[K    drupalvm: Progress: 84% (Rate: 1457k/s, Estimated time remaining: 0:01:29)[K    drupalvm: Progress: 84% (Rate: 1357k/s, Estimated time remaining: 0:01:28)[K    drupalvm: Progress: 84% (Rate: 1304k/s, Estimated time remaining: 0:01:27)[K    drupalvm: Progress: 84% (Rate: 1286k/s, Estimated time remaining: 0:01:26)[K    drupalvm: Progress: 84% (Rate: 1317k/s, Estimated time remaining: 0:01:25)[K    drupalvm: Progress: 85% (Rate: 1328k/s, Estimated time remaining: 0:01:24)[K    drupalvm: Progress: 85% (Rate: 1369k/s, Estimated time remaining: 0:01:22)[K    drupalvm: Progress: 85% (Rate: 1390k/s, Estimated time remaining: 0:01:21)[K    drupalvm: Progress: 85% (Rate: 1439k/s, Estimated time remaining: 0:01:20)[K    drupalvm: Progress: 85% (Rate: 1432k/s, Estimated time remaining: 0:01:19)[K    drupalvm: Progress: 86% (Rate: 1505k/s, Estimated time remaining: 0:01:18)[K    drupalvm: Progress: 86% (Rate: 1526k/s, Estimated time remaining: 0:01:17)[K    drupalvm: Progress: 86% (Rate: 1562k/s, Estimated time remaining: 0:01:15)[K    drupalvm: Progress: 86% (Rate: 1542k/s, Estimated time remaining: 0:01:14)[K    drupalvm: Progress: 86% (Rate: 1508k/s, Estimated time remaining: 0:01:13)[K    drupalvm: Progress: 87% (Rate: 1479k/s, Estimated time remaining: 0:01:12)[K    drupalvm: Progress: 87% (Rate: 1581k/s, Estimated time remaining: 0:01:11)[K    drupalvm: Progress: 87% (Rate: 1696k/s, Estimated time remaining: 0:01:09)[K    drupalvm: Progress: 87% (Rate: 1745k/s, Estimated time remaining: 0:01:08)[K    drupalvm: Progress: 88% (Rate: 1706k/s, Estimated time remaining: 0:01:07)[K    drupalvm: Progress: 88% (Rate: 1553k/s, Estimated time remaining: 0:01:06)[K    drupalvm: Progress: 88% (Rate: 1483k/s, Estimated time remaining: 0:01:05)[K    drupalvm: Progress: 88% (Rate: 1338k/s, Estimated time remaining: 0:01:04)[K    drupalvm: Progress: 88% (Rate: 1284k/s, Estimated time remaining: 0:01:03)[K    drupalvm: Progress: 88% (Rate: 1329k/s, Estimated time remaining: 0:01:02)[K    drupalvm: Progress: 89% (Rate: 1406k/s, Estimated time remaining: 0:01:01)[K    drupalvm: Progress: 89% (Rate: 1357k/s, Estimated time remaining: 0:01:00)[K    drupalvm: Progress: 89% (Rate: 1304k/s, Estimated time remaining: 0:00:59)[K    drupalvm: Progress: 89% (Rate: 1277k/s, Estimated time remaining: 0:00:58)[K    drupalvm: Progress: 89% (Rate: 1227k/s, Estimated time remaining: 0:00:57)[K    drupalvm: Progress: 89% (Rate: 1311k/s, Estimated time remaining: 0:00:56)[K    drupalvm: Progress: 90% (Rate: 1302k/s, Estimated time remaining: 0:00:55)[K    drupalvm: Progress: 90% (Rate: 1371k/s, Estimated time remaining: 0:00:54)[K    drupalvm: Progress: 90% (Rate: 1474k/s, Estimated time remaining: 0:00:53)[K    drupalvm: Progress: 90% (Rate: 1527k/s, Estimated time remaining: 0:00:52)[K    drupalvm: Progress: 90% (Rate: 1516k/s, Estimated time remaining: 0:00:50)[K    drupalvm: Progress: 91% (Rate: 1549k/s, Estimated time remaining: 0:00:49)[K    drupalvm: Progress: 91% (Rate: 1563k/s, Estimated time remaining: 0:00:48)[K    drupalvm: Progress: 91% (Rate: 1582k/s, Estimated time remaining: 0:00:47)[K    drupalvm: Progress: 91% (Rate: 1666k/s, Estimated time remaining: 0:00:45)[K    drupalvm: Progress: 91% (Rate: 1356k/s, Estimated time remaining: 0:00:45)[K    drupalvm: Progress: 92% (Rate: 1418k/s, Estimated time remaining: 0:00:44)[K    drupalvm: Progress: 92% (Rate: 1457k/s, Estimated time remaining: 0:00:42)[K    drupalvm: Progress: 92% (Rate: 1415k/s, Estimated time remaining: 0:00:41)[K    drupalvm: Progress: 92% (Rate: 1359k/s, Estimated time remaining: 0:00:40)[K    drupalvm: Progress: 93% (Rate: 1719k/s, Estimated time remaining: 0:00:39)[K    drupalvm: Progress: 93% (Rate: 1649k/s, Estimated time remaining: 0:00:38)[K    drupalvm: Progress: 93% (Rate: 1591k/s, Estimated time remaining: 0:00:37)[K    drupalvm: Progress: 93% (Rate: 1519k/s, Estimated time remaining: 0:00:36)[K    drupalvm: Progress: 93% (Rate: 1559k/s, Estimated time remaining: 0:00:34)[K    drupalvm: Progress: 94% (Rate: 1519k/s, Estimated time remaining: 0:00:33)[K    drupalvm: Progress: 94% (Rate: 1549k/s, Estimated time remaining: 0:00:32)[K    drupalvm: Progress: 94% (Rate: 1604k/s, Estimated time remaining: 0:00:30)[K    drupalvm: Progress: 94% (Rate: 1648k/s, Estimated time remaining: 0:00:29)[K    drupalvm: Progress: 94% (Rate: 1619k/s, Estimated time remaining: 0:00:28)[K    drupalvm: Progress: 95% (Rate: 1562k/s, Estimated time remaining: 0:00:27)[K    drupalvm: Progress: 95% (Rate: 1492k/s, Estimated time remaining: 0:00:26)[K    drupalvm: Progress: 95% (Rate: 1359k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 1203k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 917k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 696k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 461k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 280k/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 163k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 168k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 163k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 128k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 101k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 75634/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 48664/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 24580/s, Estimated time remaining: 0:00:25)[K    drupalvm: Progress: 95% (Rate: 272k/s, Estimated time remaining: 0:00:24)[K    drupalvm: Progress: 95% (Rate: 406k/s, Estimated time remaining: 0:00:23)[K    drupalvm: Progress: 95% (Rate: 447k/s, Estimated time remaining: 0:00:23)[K    drupalvm: Progress: 96% (Rate: 654k/s, Estimated time remaining: 0:00:23)[K    drupalvm: Progress: 96% (Rate: 705k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 519k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 457k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 409k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 306k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 226k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 153k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 132k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 110k/s, Estimated time remaining: 0:00:22)[K    drupalvm: Progress: 96% (Rate: 105k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 100k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 90011/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 78074/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 94229/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 99911/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 87439/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 111k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 153k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 151k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 151k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 166k/s, Estimated time remaining: 0:00:21)[K    drupalvm: Progress: 96% (Rate: 158k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 135k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 147k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 152k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 147k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 151k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 147k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 145k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 146k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 147k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 138k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 143k/s, Estimated time remaining: 0:00:20)[K    drupalvm: Progress: 96% (Rate: 151k/s, Estimated time remaining: 0:00:19)[K    drupalvm: Progress: 96% (Rate: 324k/s, Estimated time remaining: 0:00:19)[K    drupalvm: Progress: 96% (Rate: 497k/s, Estimated time remaining: 0:00:18)[K    drupalvm: Progress: 97% (Rate: 654k/s, Estimated time remaining: 0:00:17)[K    drupalvm: Progress: 97% (Rate: 832k/s, Estimated time remaining: 0:00:16)[K    drupalvm: Progress: 97% (Rate: 1021k/s, Estimated time remaining: 0:00:15)[K    drupalvm: Progress: 97% (Rate: 1062k/s, Estimated time remaining: 0:00:14)[K    drupalvm: Progress: 97% (Rate: 1010k/s, Estimated time remaining: 0:00:14)[K    drupalvm: Progress: 97% (Rate: 1008k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 929k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 696k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 459k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 313k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 135k/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 572/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 0/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 0/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 0/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 0/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 97% (Rate: 5243/s, Estimated time remaining: 0:00:13)[K    drupalvm: Progress: 98% (Rate: 228k/s, Estimated time remaining: 0:00:12)[K    drupalvm: Progress: 98% (Rate: 326k/s, Estimated time remaining: 0:00:11)[K    drupalvm: Progress: 98% (Rate: 498k/s, Estimated time remaining: 0:00:11)[K    drupalvm: Progress: 98% (Rate: 791k/s, Estimated time remaining: 0:00:10)[K    drupalvm: Progress: 98% (Rate: 1085k/s, Estimated time remaining: 0:00:08)[K    drupalvm: Progress: 98% (Rate: 1069k/s, Estimated time remaining: 0:00:07)[K    drupalvm: Progress: 98% (Rate: 1212k/s, Estimated time remaining: 0:00:07)[K    drupalvm: Progress: 99% (Rate: 1303k/s, Estimated time remaining: 0:00:05)[K    drupalvm: Progress: 99% (Rate: 1295k/s, Estimated time remaining: 0:00:04)[K    drupalvm: Progress: 99% (Rate: 1276k/s, Estimated time remaining: 0:00:03)[K    drupalvm: Progress: 99% (Rate: 1373k/s, Estimated time remaining: 0:00:02)[K    drupalvm: Progress: 99% (Rate: 1474k/s, Estimated time remaining: --:--:--)[K==> drupalvm: Successfully added box 'geerlingguy/ubuntu1604' (v1.0.9) for 'virtualbox'!
+==> drupalvm: Importing base box 'geerlingguy/ubuntu1604'...
+[KProgress: 10%[KProgress: 20%[KProgress: 30%[KProgress: 40%[KProgress: 50%[KProgress: 80%[KProgress: 90%[K==> drupalvm: Matching MAC address for NAT networking...
+==> drupalvm: Checking if box 'geerlingguy/ubuntu1604' is up to date...
+==> drupalvm: Setting the name of the VM: drupalvm.dev
+==> drupalvm: Clearing any previously set network interfaces...
+==> drupalvm: Preparing network interfaces based on configuration...
+    drupalvm: Adapter 1: nat
+    drupalvm: Adapter 2: hostonly
+==> drupalvm: Forwarding ports...
+    drupalvm: 22 (guest) => 2222 (host) (adapter 1)
+==> drupalvm: Running 'pre-boot' VM customizations...
+==> drupalvm: Booting VM...
+==> drupalvm: Waiting for machine to boot. This may take a few minutes...
+    drupalvm: SSH address: 127.0.0.1:2222
+    drupalvm: SSH username: vagrant
+    drupalvm: SSH auth method: private key
+==> drupalvm: Machine booted and ready!
+[drupalvm] GuestAdditions 5.1.14 running --- OK.
+==> drupalvm: Checking for guest additions in VM...
+==> drupalvm: Setting hostname...
+==> drupalvm: Configuring and enabling network interfaces...
+==> drupalvm: Exporting NFS shared folders...
+==> drupalvm: Preparing to edit /etc/exports. Administrator privileges will be required...
+==> drupalvm: Mounting NFS shared folders...
+==> drupalvm: Running provisioner: ansible...
+    drupalvm: Running ansible-playbook...
+
+PLAY [all] *********************************************************************
+
+TASK [setup] *******************************************************************
+ok: [drupalvm]
+
+TASK [Include OS-specific variables.] ******************************************
+ok: [drupalvm]
+
+TASK [Define config_dir.] ******************************************************
+skipping: [drupalvm]
+
+TASK [include_vars] ************************************************************
+ok: [drupalvm] => (item=/Users/macadmin/Dev/drupalvm-master/config.yml)
+
+TASK [Define fully qualified domain name.] *************************************
+ok: [drupalvm]
+
+TASK [Define short hostname.] **************************************************
+ok: [drupalvm]
+
+TASK [Add hostname to /etc/hosts.] *********************************************
+ok: [drupalvm]
+
+TASK [Configure hostname.] *****************************************************
+ok: [drupalvm]
+
+TASK [Set the hostname for current session.] ***********************************
+skipping: [drupalvm]
+
+TASK [include] *****************************************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/tasks/init-debian.yml for drupalvm
+
+TASK [Update apt cache if needed.] *********************************************
+changed: [drupalvm]
+
+TASK [Get software for Python-based control.] **********************************
+changed: [drupalvm] => (item=[u'curl', u'python-apt', u'python-pycurl', u'build-essential', u'sudo', u'unzip'])
+
+TASK [Configure /etc/mailname.] ************************************************
+ok: [drupalvm]
+
+TASK [Add repository for Apache 2.4.9+ on Ubuntu 12 and 14.] *******************
+skipping: [drupalvm]
+
+TASK [Add repository for PHP 5.5, 5.6, 7.0 or 7.1.] ****************************
+changed: [drupalvm]
+
+TASK [Add repository for PHP 5 compatibility packages.] ************************
+skipping: [drupalvm]
+
+TASK [Purge PHP version packages.] *********************************************
+ok: [drupalvm] => (item=[u'php5.5', u'php5.5-apcu', u'php5.5-cli', u'php5.5-common', u'php5.5-curl', u'php5.5-dev', u'php5.5-fpm', u'php5.5-gd', u'php5.5-imap', u'php5.5-json', u'php5.5-mbstring', u'php5.5-mcrypt', u'php5.5-opcache', u'php5.5-sqlite3', u'php5.5-xml', u'php5.5-yaml', u'php5.6', u'php5.6-apcu', u'php5.6-cli', u'php5.6-common', u'php5.6-curl', u'php5.6-dev', u'php5.6-fpm', u'php5.6-gd', u'php5.6-imap', u'php5.6-json', u'php5.6-mbstring', u'php5.6-mcrypt', u'php5.6-opcache', u'php5.6-sqlite3', u'php5.6-xml', u'php5.6-yaml', u'php7.1', u'php7.1-apcu', u'php7.1-cli', u'php7.1-common', u'php7.1-curl', u'php7.1-dev', u'php7.1-fpm', u'php7.1-gd', u'php7.1-imap', u'php7.1-json', u'php7.1-mbstring', u'php7.1-mcrypt', u'php7.1-opcache', u'php7.1-sqlite3', u'php7.1-xml', u'php7.1-yaml'])
+
+TASK [Purge PHP packages installed by default on Ubuntu.] **********************
+ok: [drupalvm] => (item=[u'php-common'])
+
+TASK [Purge PHP modules directory.] ********************************************
+skipping: [drupalvm] => (item=/usr/lib/php5/modules) 
+skipping: [drupalvm] => (item=/usr/lib/php/modules) 
+
+TASK [Define php_xhprof_html_dir.] *********************************************
+skipping: [drupalvm]
+
+TASK [include] *****************************************************************
+skipping: [drupalvm]
+
+TASK [Run configured pre-provision shell scripts.] *****************************
+
+TASK [Run configured pre-provision ansible task files.] ************************
+
+TASK [Set the PHP webserver daemon correctly when nginx is in use.] ************
+skipping: [drupalvm]
+
+TASK [Set the correct XHProf package when PHP 5.5 or 5.6 is used.] *************
+skipping: [drupalvm]
+
+TASK [Ensure PHP version -specific workspace directory exists.] ****************
+changed: [drupalvm]
+
+TASK [geerlingguy.repo-remi : Install remi repo.] ******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.repo-remi : Import remi GPG key.] ****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.firewall : Ensure iptables is installed.] ********************
+ok: [drupalvm]
+
+TASK [geerlingguy.firewall : Flush iptables the first time playbook runs.] *****
+changed: [drupalvm]
+
+TASK [geerlingguy.firewall : Copy firewall script into place.] *****************
+changed: [drupalvm]
+
+TASK [geerlingguy.firewall : Copy firewall init script into place.] ************
+changed: [drupalvm]
+
+TASK [geerlingguy.firewall : Copy firewall systemd unit file into place (for systemd systems).] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.firewall : Ensure the firewall is enabled and will start on boot.] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.firewall : Disable the firewalld service (on RHEL, if configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.firewall : Disable the ufw firewall (on Ubuntu, if configured).] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.git : Ensure git is installed (RedHat).] *********************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.git : Update apt cache (Debian).] ****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.git : Ensure git is installed (Debian).] *********************
+changed: [drupalvm] => (item=[u'git', u'git-svn'])
+
+TASK [geerlingguy.git : Ensure git's dependencies are installed (RedHat).] *****
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.git : Ensure git's dependencies are installed (Debian).] *****
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.git : Get installed version] *********************************
+[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..
+
+This feature will be removed in version 2.4. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+skipping: [drupalvm]
+
+TASK [geerlingguy.git : Force git install if the version numbers do not match] *
+skipping: [drupalvm]
+
+TASK [geerlingguy.git : Download git.] *****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.git : Expand git archive.] ***********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.git : Build git.] ********************************************
+skipping: [drupalvm] => (item=all) 
+skipping: [drupalvm] => (item=install) 
+
+TASK [geerlingguy.postfix : Ensure postfix is installed (RedHat).] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.postfix : Ensure postfix is installed (Debian).] *************
+changed: [drupalvm]
+
+TASK [geerlingguy.postfix : Ensure postfix is started and enabled at boot.] ****
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Include OS-specific variables.] *********************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Define apache_packages.] ****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : include] ********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.apache/tasks/setup-Debian.yml for drupalvm
+
+TASK [geerlingguy.apache : Update apt cache.] **********************************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Ensure Apache is installed on Debian.] **************
+changed: [drupalvm] => (item=[u'apache2', u'apache2-utils'])
+
+TASK [geerlingguy.apache : Get installed version of Apache.] *******************
+[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..
+
+This feature will be removed in version 2.4. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Create apache_version variable.] ********************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : include_vars] ***************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.apache : include_vars] ***************************************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : include] ********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.apache/tasks/configure-Debian.yml for drupalvm
+
+TASK [geerlingguy.apache : Configure Apache.] **********************************
+ok: [drupalvm] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})
+
+TASK [geerlingguy.apache : Enable Apache mods.] ********************************
+changed: [drupalvm] => (item=expires.load)
+changed: [drupalvm] => (item=ssl.load)
+changed: [drupalvm] => (item=rewrite.load)
+changed: [drupalvm] => (item=proxy.load)
+changed: [drupalvm] => (item=proxy_fcgi.load)
+
+TASK [geerlingguy.apache : Disable Apache mods.] *******************************
+
+TASK [geerlingguy.apache : Check whether certificates defined in vhosts exist.] 
+
+TASK [geerlingguy.apache : Add apache vhosts configuration.] *******************
+changed: [drupalvm]
+
+TASK [geerlingguy.apache : Add vhost symlink in sites-enabled.] ****************
+changed: [drupalvm]
+
+TASK [geerlingguy.apache : Remove default vhost in sites-enabled.] *************
+changed: [drupalvm]
+
+TASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Include OS-specific variables.] *********************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Define apache_packages.] ****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.apache : include] ********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.apache/tasks/setup-Debian.yml for drupalvm
+
+TASK [geerlingguy.apache : Update apt cache.] **********************************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Ensure Apache is installed on Debian.] **************
+ok: [drupalvm] => (item=[u'apache2', u'apache2-utils'])
+
+TASK [geerlingguy.apache : Get installed version of Apache.] *******************
+[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..
+
+This feature will be removed in version 2.4. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Create apache_version variable.] ********************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : include_vars] ***************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.apache : include_vars] ***************************************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : include] ********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.apache/tasks/configure-Debian.yml for drupalvm
+
+TASK [geerlingguy.apache : Configure Apache.] **********************************
+ok: [drupalvm] => (item={u'regexp': u'^Listen ', u'line': u'Listen 80'})
+
+TASK [geerlingguy.apache : Enable Apache mods.] ********************************
+ok: [drupalvm] => (item=expires.load)
+ok: [drupalvm] => (item=ssl.load)
+ok: [drupalvm] => (item=rewrite.load)
+ok: [drupalvm] => (item=proxy.load)
+ok: [drupalvm] => (item=proxy_fcgi.load)
+
+TASK [geerlingguy.apache : Disable Apache mods.] *******************************
+
+TASK [geerlingguy.apache : Check whether certificates defined in vhosts exist.] 
+
+TASK [geerlingguy.apache : Add apache vhosts configuration.] *******************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Add vhost symlink in sites-enabled.] ****************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Remove default vhost in sites-enabled.] *************
+ok: [drupalvm]
+
+TASK [geerlingguy.apache : Ensure Apache has selected state and enabled on boot.] ***
+ok: [drupalvm]
+
+TASK [geerlingguy.apache-php-fpm : Enable mod_proxy_fcgi.] *********************
+ok: [drupalvm] => (item=proxy.load)
+ok: [drupalvm] => (item=proxy_fcgi.load)
+
+TASK [geerlingguy.nginx : Include OS-specific variables.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Define nginx_user.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Enable nginx repo.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx is installed.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Add PPA for Nginx.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx will reinstall if the PPA was just added.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Update apt cache.] ***********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx is installed.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Update pkg cache.] ***********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx is installed.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Create logs directory.] ******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Remove default nginx vhost config file (if configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx_vhost_path exists.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Add managed vhost config file (if any vhosts are configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Remove managed vhost config file (if no vhosts are configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Copy nginx configuration in place.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nginx : Ensure nginx is started and enabled to start at boot.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Include OS-specific variables.] ************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Define php_packages.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define extra php_packages.] ****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_webserver_daemon.] **************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Define php_conf_paths.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_extension_conf_paths.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_apc_conf_filename.] *************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Define php_opcache_conf_filename (Ubuntu 16.04).] ******
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Define php_opcache_conf_filename.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_fpm_conf_path.] *****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : include] ***********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : include] ***********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.php/tasks/setup-Debian.yml for drupalvm
+
+TASK [geerlingguy.php : Update apt cache.] *************************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Ensure PHP packages are installed.] ********************
+changed: [drupalvm] => (item=[u'php7.0', u'php7.0-apcu', u'php7.0-cli', u'php7.0-common', u'php7.0-curl', u'php7.0-dev', u'php7.0-fpm', u'php7.0-gd', u'php7.0-imap', u'php7.0-json', u'php7.0-mbstring', u'php7.0-mcrypt', u'php7.0-opcache', u'php7.0-sqlite3', u'php7.0-xml', u'php7.0-yaml'])
+
+TASK [geerlingguy.php : Delete APCu configuration file if this role will provide one.] ***
+changed: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Delete OpCache configuration file if this role will provide one.] ***
+changed: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : include] ***********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : include] ***********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.php/tasks/configure.yml for drupalvm
+
+TASK [geerlingguy.php : Ensure configuration directories exist.] ***************
+ok: [drupalvm] => (item=/etc/php/7.0/fpm)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2)
+ok: [drupalvm] => (item=/etc/php/7.0/cli)
+ok: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Place PHP configuration file in place.] ****************
+changed: [drupalvm] => (item=/etc/php/7.0/fpm)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2)
+changed: [drupalvm] => (item=/etc/php/7.0/cli)
+
+TASK [geerlingguy.php : include] ***********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.php/tasks/configure-apcu.yml for drupalvm
+
+TASK [geerlingguy.php : Check for existing APCu config files.] *****************
+ok: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Remove any non-role-supplied APCu config files.] *******
+
+TASK [geerlingguy.php : Ensure APCu config file is present.] *******************
+changed: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Remove APCu config file if APC is disabled.] ***********
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php : include] ***********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.php/tasks/configure-opcache.yml for drupalvm
+
+TASK [geerlingguy.php : Check for existing OpCache config files.] **************
+ok: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+ok: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Remove any non-role-supplied OpCache config files.] ****
+
+TASK [geerlingguy.php : Ensure OpCache config file is present.] ****************
+changed: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php : Remove OpCache config file if OpCache is disabled.] ****
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php : include] ***********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.php/tasks/configure-fpm.yml for drupalvm
+
+TASK [geerlingguy.php : Define php_fpm_daemon.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_fpm_pool_conf_path.] ************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Define php_fpm_pool_user.] *****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Define php_fpm_pool_group.] ****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Stat php_fpm_pool_conf_path] ***************************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Ensure the default pool directory exists.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php : Ensure the default pool exists.] ***********************
+ok: [drupalvm]
+
+TASK [geerlingguy.php : Configure php-fpm pool (if enabled).] ******************
+ok: [drupalvm] => (item={u'regexp': u'^user.?=.+$', u'line': u'user = www-data'})
+ok: [drupalvm] => (item={u'regexp': u'^group.?=.+$', u'line': u'group = www-data'})
+changed: [drupalvm] => (item={u'regexp': u'^listen.?=.+$', u'line': u'listen = 127.0.0.1:9000'})
+changed: [drupalvm] => (item={u'regexp': u'^listen\\.allowed_clients.?=.+$', u'line': u'listen.allowed_clients = 127.0.0.1'})
+changed: [drupalvm] => (item={u'regexp': u'^pm\\.max_children.?=.+$', u'line': u'pm.max_children = 50'})
+changed: [drupalvm] => (item={u'regexp': u'^pm\\.start_servers.?=.+$', u'line': u'pm.start_servers = 5'})
+changed: [drupalvm] => (item={u'regexp': u'^pm\\.min_spare_servers.?=.+$', u'line': u'pm.min_spare_servers = 5'})
+changed: [drupalvm] => (item={u'regexp': u'^pm\\.max_spare_servers.?=.+$', u'line': u'pm.max_spare_servers = 5'})
+
+TASK [geerlingguy.php : Ensure php-fpm is started and enabled at boot (if configured).] ***
+ok: [drupalvm]
+
+TASK [geerlingguy.php-pecl : Install PECL libaries.] ***************************
+
+TASK [geerlingguy.composer : Set php_executable variable to a default if not defined.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.composer : Check if Composer is installed.] ******************
+ok: [drupalvm]
+
+TASK [geerlingguy.composer : Download Composer installer.] *********************
+changed: [drupalvm]
+
+TASK [geerlingguy.composer : Run Composer installer.] **************************
+changed: [drupalvm]
+
+TASK [geerlingguy.composer : Move Composer into globally-accessible location.] *
+changed: [drupalvm]
+
+TASK [geerlingguy.composer : Update Composer to latest version (if configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.composer : Ensure composer directory exists.] ****************
+changed: [drupalvm]
+
+TASK [geerlingguy.composer : Add GitHub OAuth token for Composer (if configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.composer : Install configured globally-required packages.] ***
+changed: [drupalvm] => (item={u'release': u'^0.3', u'name': u'hirak/prestissimo'})
+
+TASK [geerlingguy.composer : Add composer_home_path bin directory to global $PATH.] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.composer : Add composer_project_path bin directory to global $PATH.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Include OS-specific variables.] **********************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Include OS-specific variables (RedHat).] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_packages.] ******************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_daemon.] ********************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_slow_query_log_file.] *******************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_log_error.] *****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_syslog_tag.] ****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_pid_file.] ******************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_config_file.] ***************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_config_include_dir.] ********************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_socket.] ********************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Define mysql_supports_innodb_large_prefix.] **********
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : include] *********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : include] *********************************************
+included: /Users/macadmin/Dev/drupalvm-master/provisioning/roles/geerlingguy.mysql/tasks/setup-Debian.yml for drupalvm
+
+TASK [geerlingguy.mysql : Check if MySQL is already installed.] ****************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Update apt cache if MySQL is not yet installed.] *****
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Ensure MySQL Python libraries are installed.] ********
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Ensure MySQL packages are installed.] ****************
+changed: [drupalvm] => (item=[u'mysql-common', u'mysql-server'])
+
+TASK [geerlingguy.mysql : Ensure MySQL is stopped after initial install.] ******
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Delete innodb log files created by apt package after initial install.] ***
+changed: [drupalvm] => (item=ib_logfile0)
+changed: [drupalvm] => (item=ib_logfile1)
+
+TASK [geerlingguy.mysql : Check if MySQL packages were installed.] *************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Copy my.cnf global MySQL configuration.] *************
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Verify mysql include directory exists.] **************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Copy my.cnf override files into include directory.] **
+
+TASK [geerlingguy.mysql : Create slow query log file (if configured).] *********
+changed: [drupalvm]
+ [WARNING]: Consider using file module with state=touch rather than running
+touch
+
+TASK [geerlingguy.mysql : Create datadir if it does not exist] *****************
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Set ownership on slow query log file (if configured).] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Create error log file (if configured).] **************
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Set ownership on error log file (if configured).] ****
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Ensure MySQL is started and enabled on boot.] ********
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Get MySQL version.] **********************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Ensure default user is present.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Copy user-my.cnf file with password credentials.] ****
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Disallow root login remotely] ************************
+ok: [drupalvm] => (item=DELETE FROM mysql.user WHERE User='root' AND Host NOT IN ('localhost', '127.0.0.1', '::1'))
+
+TASK [geerlingguy.mysql : Get list of hosts for the root user.] ****************
+[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..
+
+This feature will be removed in version 2.4. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Update MySQL root password for localhost root account (5.7.x).] ***
+changed: [drupalvm] => (item=localhost)
+
+TASK [geerlingguy.mysql : Update MySQL root password for localhost root account (< 5.7.x).] ***
+skipping: [drupalvm] => (item=localhost) 
+
+TASK [geerlingguy.mysql : Copy .my.cnf file with root password credentials.] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.mysql : Get list of hosts for the anonymous user.] ***********
+[DEPRECATION WARNING]: always_run is deprecated. Use check_mode = no instead..
+
+This feature will be removed in version 2.4. Deprecation warnings can be 
+disabled by setting deprecation_warnings=False in ansible.cfg.
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Remove anonymous MySQL users.] ***********************
+
+TASK [geerlingguy.mysql : Remove MySQL test database.] *************************
+ok: [drupalvm]
+
+TASK [geerlingguy.mysql : Ensure MySQL databases are present.] *****************
+changed: [drupalvm] => (item={u'collation': u'utf8mb4_general_ci', u'name': u'drupal', u'encoding': u'utf8mb4'})
+
+TASK [geerlingguy.mysql : Ensure MySQL users are present.] *********************
+changed: [drupalvm] => (item=(censored due to no_log))
+
+TASK [geerlingguy.mysql : Ensure replication user exists on master.] ***********
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Check slave replication status.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Check master replication status.] ********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Configure replication on the slave.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.mysql : Start replication.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-mysql : Include OS-specific variables.] ******************
+ok: [drupalvm]
+
+TASK [geerlingguy.php-mysql : Define php_mysql_package.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-mysql : Install PHP MySQL dependencies (RedHat).] ********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-mysql : Install PHP MySQL dependencies (Debian).] ********
+changed: [drupalvm]
+
+TASK [geerlingguy.postgresql : include] ****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : include] ****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : include] ****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Set PostgreSQL environment variables.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL data directory exists.] *******
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Check if PostgreSQL database is initialized.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL database is initialized.] *****
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Configure global settings.] *********************
+skipping: [drupalvm] => (item={u'option': u'unix_socket_directories', u'value': u'/var/run/postgresql'}) 
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL unix socket dirs exist.] ******
+skipping: [drupalvm] => (item=/var/run/postgresql) 
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL is started and enabled on boot.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL databases are present.] *******
+skipping: [drupalvm] => (item={u'name': u'drupal'}) 
+
+TASK [geerlingguy.postgresql : Ensure PostgreSQL users are present.] ***********
+skipping: [drupalvm] => (item=(censored due to no_log)) 
+
+TASK [geerlingguy.php-pgsql : Include OS-specific variables.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-pgsql : Define php_pgsql_package.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-pgsql : Install PHP PostgreSQL dependencies (RedHat).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-pgsql : Install PHP PostgreSQL dependencies (Debian).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.drupal-console : Install Drupal Console.] ********************
+changed: [drupalvm]
+
+TASK [geerlingguy.drupal-console : Ensure Drupal Console is executable.] *******
+changed: [drupalvm]
+
+TASK [geerlingguy.drupal-console : Run Drupal Console init.] *******************
+changed: [drupalvm]
+
+TASK [geerlingguy.drupal-console : Update Drupal Console to latest version (if configured).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.drush : Clone Drush from GitHub.] ****************************
+changed: [drupalvm]
+
+TASK [geerlingguy.drush : Check for composer.json] *****************************
+ok: [drupalvm]
+
+TASK [geerlingguy.drush : Ensure Drush can be installed on Debian Wheezy.] *****
+skipping: [drupalvm]
+
+TASK [geerlingguy.drush : Install Drush dependencies with Composer.] ***********
+changed: [drupalvm]
+
+TASK [geerlingguy.drush : Create drush symlink.] *******************************
+changed: [drupalvm]
+
+TASK [geerlingguy.drush : Run drush to finish setting it up.] ******************
+ok: [drupalvm]
+
+TASK [geerlingguy.memcached : Include OS-specific variables.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.memcached : Define memcached_user.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.memcached : Update apt cache.] *******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.memcached : Install Memcached.] ******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.memcached : Copy Memcached configuration.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.memcached : Ensure Memcached is started and set to run on startup.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-memcached : Include OS-specific variables.] **************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-memcached : Define php_memcached_package.] ***************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-memcached : Install PHP Memcached extension (RedHat).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-memcached : Install PHP Memcached extension (Debian).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Include OS-specific variables.] ***************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Define php_tideways_module_path.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Define php_tideways_config_filename.] *********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Ensure dependencies for installing Tideways are present.] ***
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.php-tideways : Download and untar Tideways.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Build Tideways.] ******************************
+skipping: [drupalvm] => (item=phpize) 
+skipping: [drupalvm] => (item=make install) 
+skipping: [drupalvm] => (item=make) 
+skipping: [drupalvm] => (item=./configure) 
+
+TASK [geerlingguy.php-tideways : Ensure Tideways module path exists.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Move Tideways module into place.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Ensure PHP configuration directories exist.] **
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-tideways : Copy Tideways INI into various other conf folders.] ***
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-tideways : Define xhprof_download_url.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Define xhprof_download_folder_name.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Define php_xhprof_lib_dir.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Define php_xhprof_html_dir.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Ensure dependencies for the XHProf UI are present.] ***
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.php-tideways : Download and untar XHProf.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Move XHProf PHP library into place.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Move XHProf UI into place.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-tideways : Ensure PHP configuration directories exist.] **
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-tideways : Copy Tideways INI into various other conf folders.] ***
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-xdebug : Include OS-specific variables.] *****************
+ok: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Define php_xdebug_module_path.] *****************
+ok: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Define php_xdebug_config_filename.] *************
+ok: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Ensure dependencies for building from source are installed (RedHat).] ***
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.php-xdebug : Ensure dependencies for building from source are installed (Debian).] ***
+ok: [drupalvm] => (item=[u'build-essential'])
+
+TASK [geerlingguy.php-xdebug : Untar Xdebug.] **********************************
+changed: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Build Xdebug.] **********************************
+changed: [drupalvm] => (item=phpize)
+changed: [drupalvm] => (item=./configure)
+changed: [drupalvm] => (item=make)
+
+TASK [geerlingguy.php-xdebug : Ensure Xdebug module path exists.] **************
+changed: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Move Xdebug module into place.] *****************
+changed: [drupalvm]
+
+TASK [geerlingguy.php-xdebug : Copy xdebug ini into main extension config folder.] ***
+changed: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d)
+changed: [drupalvm] => (item=/etc/php/7.0/cli/conf.d)
+
+TASK [geerlingguy.php-xhprof : Include OS-specific variables.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Define php_xhprof_module_path.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Define php_xhprof_config_filename.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Ensure dependencies for installing XHProf are present.] ***
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.php-xhprof : Download and untar XHProf.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Build XHProf.] **********************************
+skipping: [drupalvm] => (item=phpize) 
+skipping: [drupalvm] => (item=make) 
+skipping: [drupalvm] => (item=./configure) 
+
+TASK [geerlingguy.php-xhprof : Ensure XHProf module path exists.] **************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Move XHProf module into place.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Move XHProf PHP library into place.] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Move XHProf UI into place.] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-xhprof : Ensure PHP configuration directories exist.] ****
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-xhprof : Copy XHProf INI into various other conf folders.] ***
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.php-xhprof : Ensure XHProf output directory exists.] *********
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Include OS-specific variables.] **************
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Define php_uploadprogress_module_path.] ******
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Define php_uploadprogress_config_filename.] **
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Download and untar uploadprogress.] **********
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Build uploadprogress.] ***********************
+skipping: [drupalvm] => (item=phpize) 
+skipping: [drupalvm] => (item=make) 
+skipping: [drupalvm] => (item=./configure) 
+
+TASK [thom8.php-upload-progress : Ensure uploadprogress module path exists.] ***
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Move uploadprogress module into place.] ******
+skipping: [drupalvm]
+
+TASK [thom8.php-upload-progress : Add php extension config for uploadprogress.] 
+skipping: [drupalvm] => (item=/etc/php/7.0/fpm/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/cli/conf.d) 
+skipping: [drupalvm] => (item=/etc/php/7.0/apache2/conf.d) 
+
+TASK [geerlingguy.blackfire : Add packagecloud GPG key.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.blackfire : Add Blackfire repository.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.blackfire : Disable gpg_repocheck for non-bleeding-edge CentOS.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.blackfire : Add packagecloud apt key.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.blackfire : Add packagecloud repository.] ********************
+skipping: [drupalvm] => (item=deb http://packages.blackfire.io/debian any main) 
+
+TASK [geerlingguy.blackfire : Update apt caches after repo is added.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.blackfire : Ensure Blackfire packages are installed.] ********
+skipping: [drupalvm]
+
+TASK [geerlingguy.adminer : Ensure Adminer directory exists.] ******************
+changed: [drupalvm]
+
+TASK [geerlingguy.adminer : Download Adminer to configured directory.] *********
+changed: [drupalvm]
+
+TASK [geerlingguy.adminer : Symlink Adminer into configured directories.] ******
+
+TASK [geerlingguy.adminer : Set the proper Apache configuration directory (Debian).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.adminer : Add Apache configuration file for Adminer (Debian).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.adminer : Add Apache configuration file for Adminer (RedHat).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.pimpmylog : Clone Pimp my Log.] ******************************
+changed: [drupalvm]
+
+TASK [geerlingguy.pimpmylog : Grant all privileges on the Pimp my Log directory.] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.daemonize : Download daemonize archive.] *********************
+changed: [drupalvm]
+
+TASK [geerlingguy.daemonize : Expand daemonize archive.] ***********************
+changed: [drupalvm]
+
+TASK [geerlingguy.daemonize : Check if daemonize is installed.] ****************
+ok: [drupalvm]
+
+TASK [geerlingguy.daemonize : Build daemonize.] ********************************
+changed: [drupalvm] => (item=./configure --prefix=/usr)
+changed: [drupalvm] => (item=make)
+changed: [drupalvm] => (item=make install)
+
+TASK [geerlingguy.daemonize : Download daemonize archive.] *********************
+ok: [drupalvm]
+
+TASK [geerlingguy.daemonize : Expand daemonize archive.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.daemonize : Check if daemonize is installed.] ****************
+ok: [drupalvm]
+
+TASK [geerlingguy.daemonize : Build daemonize.] ********************************
+skipping: [drupalvm] => (item=./configure --prefix=/usr) 
+skipping: [drupalvm] => (item=make install) 
+skipping: [drupalvm] => (item=make) 
+
+TASK [geerlingguy.mailhog : Ensure mailhog install directory exists.] **********
+changed: [drupalvm]
+
+TASK [geerlingguy.mailhog : Download MailHog and mhsendmail binaries.] *********
+changed: [drupalvm] => (item={u'url': u'https://github.com/mailhog/MailHog/releases/download/v0.2.0/MailHog_linux_amd64', u'dest': u'/opt/mailhog/mailhog'})
+changed: [drupalvm] => (item={u'url': u'https://github.com/mailhog/mhsendmail/releases/download/v0.2.0/mhsendmail_linux_amd64', u'dest': u'/opt/mailhog/mhsendmail'})
+
+TASK [geerlingguy.mailhog : Copy mailhog init script into place.] **************
+changed: [drupalvm]
+
+TASK [geerlingguy.mailhog : Copy mailhog systemd unit file into place (for systemd systems).] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.mailhog : Ensure mailhog is enabled and will start on boot.] *
+changed: [drupalvm]
+
+TASK [franklinkim.newrelic : Checking for key] *********************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Installing dependencies] **************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Adding APT key] ***********************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Add APT repository] *******************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Installing packages] ******************************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [franklinkim.newrelic : Installing dependencies] **************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Installing packages] ******************************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [franklinkim.newrelic : Configuring module] *******************************
+skipping: [drupalvm] => (item=etc/newrelic/nrsysmond.cfg) 
+
+TASK [franklinkim.newrelic : Configuring user groups] **************************
+skipping: [drupalvm]
+
+TASK [franklinkim.newrelic : Configuring service] ******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Set up the Nodesource RPM directory for Node.js > 0.10.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Set up the Nodesource RPM variable for Node.js == 0.10.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Import Nodesource RPM key (CentOS < 7).] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Import Nodesource RPM key (CentOS 7+)..] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Add Nodesource repositories for Node.js (CentOS < 7).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Add Nodesource repositories for Node.js (CentOS 7+).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Ensure Node.js and npm are installed.] **************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Ensure apt-transport-https is installed.] ***********
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Add Nodesource apt key.] ****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Add NodeSource repositories for Node.js.] ***********
+skipping: [drupalvm] => (item=deb https://deb.nodesource.com/node_0.12 xenial main) 
+skipping: [drupalvm] => (item=deb-src https://deb.nodesource.com/node_0.12 xenial main) 
+
+TASK [geerlingguy.nodejs : Update apt cache if repo was added.] ****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Ensure Node.js and npm are installed.] **************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Define nodejs_install_npm_user] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Create npm global directory] ************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Add npm_config_prefix bin directory to global $PATH.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.nodejs : Ensure npm global packages are installed.] **********
+
+TASK [geerlingguy.nodejs : Ensure npm global packages are at the latest release.] ***
+
+TASK [geerlingguy.redis : Include OS-specific variables.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.redis : Define redis_package.] *******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.redis : Ensure Redis is installed.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.redis : Ensure Redis is installed.] **************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.redis : Ensure Redis is configured.] *************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.redis : Ensure Redis is running and enabled on boot.] ********
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Include OS-specific variables.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Define php_redis_package.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Install PhpRedis extension (RedHat).] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Install PhpRedis extension (Debian).] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Clone the PhpRedis repo.] ************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Run phpize.] *************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Run configure script.] ***************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.php-redis : Make and install PHP.] ***************************
+skipping: [drupalvm] => (item=make) 
+skipping: [drupalvm] => (item=make install) 
+
+TASK [geerlingguy.php-redis : Ensure the Redis extension is present in PHP's configuration.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Install ruby and rubygems.] ***************************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.ruby : Update apt cache.] ************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Set rubygems package name for Ubuntu 14.04.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Install ruby and rubygems.] ***************************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.ruby : Install packages required to build ruby (RedHat).] ****
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.ruby : Update apt cache (Debian).] ***************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Install packages required to build ruby (Debian).] ****
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.ruby : Download ruby.] ***************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Extract ruby.] ****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Build ruby.] ******************************************
+skipping: [drupalvm] => (item=./configure --enable-shared) 
+skipping: [drupalvm] => (item=make install) 
+skipping: [drupalvm] => (item=make) 
+
+TASK [geerlingguy.ruby : Add ruby symlinks.] ***********************************
+skipping: [drupalvm] => (item=erb) 
+skipping: [drupalvm] => (item=rake) 
+skipping: [drupalvm] => (item=ruby) 
+skipping: [drupalvm] => (item=rdoc) 
+skipping: [drupalvm] => (item=irb) 
+skipping: [drupalvm] => (item=gem) 
+
+TASK [geerlingguy.ruby : Add user installed RubyGems bin directory to global $PATH.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Install Bundler.] *************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.ruby : Install configured gems.] *****************************
+
+TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Include OS-specific variables for Fedora.] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Define java_packages.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Set JAVA_HOME if configured.] *************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Include OS-Specific variables] ************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install dependencies] *********************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : create directory] *************************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Download Selenium] ************************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install FireFox (if configured)] **********************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Add Chrome key (if configured, Debian)] ***************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Add Chrome repo (if configured, Debian)] **************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install Chrome (if configured, Debian)] ***************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install Chrome (if configured, RedHat)] ***************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Get the latest release for chromedriver] **************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install chromedriver] *********************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install xvfb] *****************************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install init script] **********************************
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Install systemd unit file (for systemd systems)] ******
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Register systemd service status (for systemd systems)] 
+skipping: [drupalvm]
+
+TASK [arknoll.selenium : Ensure selenium is running] ***************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure solr_user group exists.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure solr_user exists.] *****************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Set solr_filename for Solr 4+.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Set solr_filename for Solr 3.x.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Check if Solr has been installed already.] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Download Solr.] ***************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Expand Solr.] *****************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Check if Solr is already installed.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Copy Solr into place.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure Solr install files are owned by the solr_user.] 
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Check if solr_home is already set up.] ****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure solr_home directory exists.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Copy Solr example into solr_home.] ********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Fix the example solrconfig.xml file.] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure Solr home files are owned by the solr_user.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure log file is created and has proper permissions.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Copy solr init script into place.] ********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure daemon is installed (Debian).] *****************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Copy solr systemd unit file into place (for systemd systems).] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure lsof is present (RedHat).] *********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure setfacl support is present.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Run Solr installation script.] ************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure solr is stopped (RHEL 7 workaround).] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Run systemd daemon_reload (RHEL 7 workaround).] *******
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure solr is started and enabled on boot.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Check current list of Solr cores.] ********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Ensure Solr conf directories exist.] ******************
+skipping: [drupalvm] => (item=collection1) 
+
+TASK [geerlingguy.solr : Ensure core configuration directories exist.] *********
+skipping: [drupalvm] => (item=collection1) 
+
+TASK [geerlingguy.solr : Create configured cores.] *****************************
+skipping: [drupalvm] => (item=collection1) 
+
+TASK [geerlingguy.solr : Remove existing SOLR_HEAP configuration.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.solr : Apply Solr configuration changes.] ********************
+skipping: [drupalvm] => (item={u'regexp': u'^.?SOLR_JAVA_MEM=', u'line': u'SOLR_JAVA_MEM="-Xms64M -Xmx128M"'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^.?SOLR_TIMEZONE=', u'line': u'SOLR_TIMEZONE="UTC"'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^SOLR_PORT=', u'line': u'SOLR_PORT="8983"'}) 
+
+TASK [geerlingguy.solr : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Include OS-specific variables.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Include OS-specific variables for Fedora.] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Include version-specific variables for Ubuntu.] *******
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Define java_packages.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : include] **********************************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.java : Set JAVA_HOME if configured.] *************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Add Elasticsearch GPG key.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Add Elasticsearch repository.] ***************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Install Elasticsearch.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Add Elasticsearch apt key.] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Add Elasticsearch repository.] ***************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Install Elasticsearch.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Configure Elasticsearch.] ********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Start Elasticsearch.] ************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.elasticsearch : Make sure Elasticsearch is running before proceeding.] ***
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Include OS-specific variables.] ********************
+ok: [drupalvm]
+
+TASK [geerlingguy.varnish : Ensure Varnish dependencies are installed.] ********
+skipping: [drupalvm] => (item=[]) 
+
+TASK [geerlingguy.varnish : Add Varnish repository.] ***************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Set repo fact appropriately.] **********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Install Varnish.] **********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Ensure APT HTTPS Transport is installed.] **********
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Add Varnish apt key.] ******************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Add Varnish apt repository.] ***********************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Install Varnish.] **********************************
+changed: [drupalvm]
+
+TASK [geerlingguy.varnish : Copy Varnish configuration (sysvinit).] ************
+skipping: [drupalvm]
+
+TASK [geerlingguy.varnish : Copy Debian Jessie/Xenial specific Varnish configs (systemd).] ***
+changed: [drupalvm]
+
+TASK [geerlingguy.varnish : Copy Varnish configuration (systemd).] *************
+changed: [drupalvm]
+
+TASK [geerlingguy.varnish : Ensure Varnish config path exists.] ****************
+ok: [drupalvm]
+
+TASK [geerlingguy.varnish : Copy Varnish default VCL.] *************************
+changed: [drupalvm]
+
+TASK [geerlingguy.varnish : Copy varnish secret.] ******************************
+changed: [drupalvm]
+
+TASK [geerlingguy.varnish : Ensure Varnish services are started enabled on startup.] ***
+ok: [drupalvm] => (item=varnish)
+
+TASK [geerlingguy.security : Include OS-specific variables.] *******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Install fail2ban.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Install fail2ban.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Ensure fail2ban is running and enabled on boot.] **
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Update SSH configuration to be more secure.] ******
+skipping: [drupalvm] => (item={u'regexp': u'^PasswordAuthentication', u'line': u'PasswordAuthentication no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^X11Forwarding', u'line': u'X11Forwarding no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^GSSAPIAuthentication', u'line': u'GSSAPIAuthentication no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^ChallengeResponseAuthentication', u'line': u'ChallengeResponseAuthentication no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^PermitEmptyPasswords', u'line': u'PermitEmptyPasswords no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^UseDNS', u'line': u'UseDNS no'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^Port', u'line': u'Port 22'}) 
+skipping: [drupalvm] => (item={u'regexp': u'^PermitRootLogin', u'line': u'PermitRootLogin no'}) 
+
+TASK [geerlingguy.security : Add configured user accounts to passwordless sudoers.] ***
+
+TASK [geerlingguy.security : Add configured user accounts to passworded sudoers.] ***
+
+TASK [geerlingguy.security : Install yum-cron.] ********************************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Ensure yum-cron is running and enabled on boot.] **
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Configure autoupdates (RHEL 7).] ******************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Install unattended upgrades package.] *************
+skipping: [drupalvm]
+
+TASK [geerlingguy.security : Copy unattended-upgrades configuration files in place.] ***
+skipping: [drupalvm] => (item=10periodic) 
+skipping: [drupalvm] => (item=50unattended-upgrades) 
+
+TASK [Check if Drupal is already set up.] **************************************
+ok: [drupalvm]
+
+TASK [Define drupal_site_exists] ***********************************************
+ok: [drupalvm]
+
+TASK [Do not accept locale environment variables passed over SSH.] *************
+changed: [drupalvm]
+
+TASK [Check if local known_hosts file is present.] *****************************
+ok: [drupalvm]
+
+TASK [Copy known_hosts file from host into Drupal VM.] *************************
+changed: [drupalvm]
+
+TASK [Set SSH home directory.] *************************************************
+skipping: [drupalvm]
+
+TASK [Install extra apt packages (if any are configured).] *********************
+changed: [drupalvm] => (item=[u'sqlite'])
+
+TASK [Install extra yum packages (if any are configured).] *********************
+skipping: [drupalvm] => (item=[]) 
+
+TASK [Ensure necessary groups exist.] ******************************************
+changed: [drupalvm] => (item=admin)
+ok: [drupalvm] => (item=dialout)
+
+TASK [Ensure vagrant user is in admin group.] **********************************
+changed: [drupalvm]
+
+TASK [Ensure www-data user is in dialout group (Debian).] **********************
+changed: [drupalvm]
+
+TASK [Set nicer permissions on Apache log directory.] **************************
+changed: [drupalvm]
+
+TASK [Copy Nginx vhosts into place.] *******************************************
+skipping: [drupalvm] => (item={u'is_php': True, u'root': u'/var/www/drupalvm/drupal/web', u'server_name': u'drupalvm.dev www.drupalvm.dev'}) 
+skipping: [drupalvm] => (item={u'is_php': True, u'root': u'/var/www/dashboard', u'server_name': u'192.168.88.88 dashboard.drupalvm.dev'}) 
+skipping: [drupalvm] => (item={u'is_php': True, u'root': u'/usr/share/php/pimpmylog', u'server_name': u'pimpmylog.drupalvm.dev'}) 
+skipping: [drupalvm] => (item={u'is_php': True, u'root': u'/usr/share/php/xhprof_html', u'server_name': u'xhprof.drupalvm.dev'}) 
+skipping: [drupalvm] => (item={u'is_php': True, u'root': u'/opt/adminer', u'server_name': u'adminer.drupalvm.dev'}) 
+
+TASK [Detect if AppArmor is working.] ******************************************
+ok: [drupalvm]
+ [WARNING]: Consider using service module rather than running service
+
+TASK [Ensure MySQL AppArmor profile is disabled (for slow query log).] *********
+changed: [drupalvm]
+
+TASK [Restart the AppArmor if necessary.] **************************************
+changed: [drupalvm]
+
+TASK [Copy drush makefile into place.] *****************************************
+skipping: [drupalvm]
+
+TASK [Ensure drupal_core_path directory exists.] *******************************
+skipping: [drupalvm]
+
+TASK [Generate Drupal site with drush makefile.] *******************************
+skipping: [drupalvm]
+
+TASK [Check if a composer.json file is present.] *******************************
+skipping: [drupalvm]
+
+TASK [Run composer install if composer.json is present.] ***********************
+skipping: [drupalvm]
+
+TASK [Ensure drupal_composer_install_dir directory exists.] ********************
+skipping: [drupalvm]
+
+TASK [Copy composer.json into temporary location.] *****************************
+skipping: [drupalvm]
+
+TASK [Move composer.json into place.] ******************************************
+skipping: [drupalvm]
+
+TASK [Run composer install.] ***************************************************
+skipping: [drupalvm]
+
+TASK [Install dependencies with composer require.] *****************************
+skipping: [drupalvm] => (item=drupal/devel:1.x-dev) 
+
+TASK [Ensure drupal_composer_install_dir directory has proper permissions.] ****
+ok: [drupalvm]
+
+TASK [Generate Drupal project with composer package.] **************************
+changed: [drupalvm]
+
+TASK [Install dependencies with composer require.] *****************************
+changed: [drupalvm] => (item=drupal/devel:1.x-dev)
+
+TASK [Check if a project specific Drush binary exists.] ************************
+ok: [drupalvm]
+
+TASK [Use project specific Drush if available.] ********************************
+ok: [drupalvm]
+
+TASK [Check if site is already installed.] *************************************
+ok: [drupalvm]
+
+TASK [Configure database correctly if using PostgreSQL.] ***********************
+skipping: [drupalvm]
+
+TASK [Install Drupal with drush.] **********************************************
+changed: [drupalvm]
+
+TASK [Install configured modules with drush.] **********************************
+changed: [drupalvm]
+
+TASK [Shim for legacy configure_local_drush_aliases variable.] *****************
+skipping: [drupalvm]
+
+TASK [Check if local Drush configuration folder exists.] ***********************
+ok: [drupalvm -> 127.0.0.1]
+
+TASK [Create Drush configuration folder if it doesn't exist.] ******************
+skipping: [drupalvm]
+
+TASK [Configure host machine drush aliases.] ***********************************
+ok: [drupalvm -> 127.0.0.1]
+
+TASK [Ensure drush directory exists for vagrant user inside VM.] ***************
+ok: [drupalvm]
+
+TASK [Configure drush aliases for vagrant user inside VM.] *********************
+changed: [drupalvm]
+
+TASK [Ensure drush directory exists for root user inside VM.] ******************
+changed: [drupalvm]
+
+TASK [Configure drush aliases for root user inside VM.] ************************
+changed: [drupalvm]
+
+TASK [Ensure configured cron jobs exist in user account's crontab.] ************
+
+TASK [Ensure the dashboard directory exists.] **********************************
+changed: [drupalvm]
+
+TASK [Copy dashboard page into place.] *****************************************
+changed: [drupalvm]
+
+TASK [Copy phpinfo file into place.] *******************************************
+changed: [drupalvm]
+
+TASK [Run configured post-provision shell scripts.] ****************************
+
+TASK [Run configured post-provision ansible task files.] ***********************
+
+RUNNING HANDLER [geerlingguy.firewall : restart firewall] **********************
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.apache : restart apache] **************************
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.php : restart webserver] **************************
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.php : restart php-fpm] ****************************
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.mysql : restart mysql] ****************************
+ [WARNING]: Ignoring "sleep" as it is not used in "systemd"
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.varnish : reload systemd] *************************
+changed: [drupalvm]
+
+RUNNING HANDLER [geerlingguy.varnish : restart varnish] ************************
+changed: [drupalvm]
+
+PLAY RECAP *********************************************************************
+drupalvm                   : ok=202  changed=102  unreachable=0    failed=0   
+
